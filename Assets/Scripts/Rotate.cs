@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class Rotate : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void start(){
-
-    }
     float rotSpeed = 20;
 
     void OnMouseDrag(){
@@ -16,8 +12,5 @@ public class Rotate : MonoBehaviour
 
         transform.RotateAround(Vector3.up, -rotX);
         transform.RotateAround(Vector3.up, -rotY);
-    }
-    void update(){
-        
     }
 }
